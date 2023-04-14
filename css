@@ -1,0 +1,38 @@
+/* цвета */
+:root {
+  --primary-color: #8a2be2; /* сиреневый */
+  --secondary-color: #1e90ff; /* синий */
+  --white-color: #fff; /* белый */
+  --black-color: #000; /* черный */
+}
+
+/* шрифт */
+body {
+  font-family: 'Sounce Sans Pro', sans-serif;
+}
+
+/* стили для заголовков */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+/* стили для кнопок */
+button {
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* стили для ссылок */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
